@@ -96,7 +96,7 @@ jobs:
     - name: Install Dependencies
       run: |
         node --version
-        npm install run
+        npm ins
 
     - name: Build Static Website
       run: | 
