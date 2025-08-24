@@ -60,7 +60,7 @@
 #           --distribution-id ${{ env.DIST_ID }} \
 #           --paths "/*" --region ${{ env.AWS_REGION }}
 
-name: UE1-PROD-DEPLOY-2025.08-PATCH-02
+name: UE1-PROD-DEPLOY-2025.08-PATCH-03
 
 on:
   workflow_dispatch : 
