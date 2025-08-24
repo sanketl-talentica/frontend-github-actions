@@ -60,7 +60,7 @@
 #           --distribution-id ${{ env.DIST_ID }} \
 #           --paths "/*" --region ${{ env.AWS_REGION }}
 
-name: UE1-PROD-DEPLOY-2025.08-PATCH-01
+name: UE1-PROD-DEPLOY-2025.08-PATCH-02
 
 on:
   workflow_dispatch : 
@@ -91,7 +91,7 @@ jobs:
     - name: Setting up Node
       uses: actions/setup-node@v3
       with:
-        node-version: '16.18.1'
+        node-version: '16.18.111'
 
     - name: Install Dependencies
       run: |
